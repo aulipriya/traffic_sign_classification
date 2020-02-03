@@ -1,6 +1,18 @@
 # Traffic Sign Classification 
 This project's aim was to solve a simple classification problem using tensorflow.
 
+### Prerequisites 
+* python3.6
+* tensorflow 
+
+### Install Requirements 
+```Language
+pip install -r requirements.txt
+```
+### Run 
+```Language
+python train.py
+```
 ### Dataset
 This project uses [this](https://btsd.ethz.ch/shareddata/) dataset of traffic sign images. There are total 62 classes of images. Images were of different sizes, they were preprocessed to size 28,28 and converted to grayscale.
 
